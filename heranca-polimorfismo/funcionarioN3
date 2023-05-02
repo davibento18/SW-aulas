@@ -1,0 +1,10 @@
+﻿namespace heranca_polimorfismo;
+class funcionarioN3:Funcionario
+{
+    public string? Cargo {get; set;} 
+
+
+    public override double Participacao(){
+        return base.Participacao() * 0.03;
+    }
+}

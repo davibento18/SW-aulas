@@ -1,0 +1,8 @@
+﻿namespace heranca_polimorfismo;
+class FuncionarioN3:Funcionario
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
